@@ -92,6 +92,7 @@ TOOLS = [
         }
     },
 ]
+TOOLS=[]
 
 
 def execute_function(function_name: str, function_args: dict) -> str:
@@ -105,23 +106,13 @@ def execute_function(function_name: str, function_args: dict) -> str:
     Returns:
         str: The result of the function call.
     """
-    if function_name == "tbl_numbers":
-        return tbl_numbers()
-    elif function_name == "list_tbls":
-        return list_tbls(function_args.get("start", 0), function_args.get("end", 10))
-    elif function_name == "describe_tbl":
-        return describe_tbl(function_args.get("name", ""))
-    elif function_name == "search":
-        return search(
-            term=function_args.get("term", ""),
-            include_tbl=function_args.get("include_tbl", True),
-            include_column=function_args.get("include_column", True),
-            use_regex=function_args.get("use_regex", False)
-        )
-    elif function_name == "view_sample":
-        return view_sample(function_args.get("name", ""))
-    else:
-        return f"Unknown function: {function_name}"
+    # if function_name == "tbl_numbers":
+    #     return tbl_numbers()
+    # elif function_name == "list_tbls":
+    #     return list_tbls(function_args.get("start", 0), function_args.get("end", 10))
+    
+    # else:
+    return f"Unknown function: {function_name}"
 
 
 def query_agent(user_question: str, verbose: bool = False, history: Optional[list] = None) -> tuple[str, list]:
@@ -130,7 +121,7 @@ def query_agent(user_question: str, verbose: bool = False, history: Optional[lis
     
     The agent will:
     1. Understand the user's question
-    2. Decide which database functions to call
+    2. Decide which functions to call
     3. Execute the functions and gather information
     4. Return a comprehensive answer and updated history
     
