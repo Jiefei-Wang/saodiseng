@@ -1,0 +1,38 @@
+[
+  {
+    "type": "论文",
+    "value": "Cu/Al异种金属连接的研究现状",
+    "index": 0,
+    "confirmed": "no",
+    "paper": "",
+    "cite": "夏春智,李亚江,王娟.Cu/Al异种金属连接的研究现状[J].焊接,2008(1):17-20. 被引量：37",
+    "reason": "明确提到了教授姓名、论文标题、发表期刊和年份，符合论文发表信息的完整要素",
+    "department_confirm": "unknown",
+    "school_confirm": "unknown",
+    "link": "http://dianda.cqvip.com/Qikan/Article/Detail?id=671694207&from=Qikan_Article_Detail"
+  },
+  {
+    "type": "关键词",
+    "value": "SCI,EI,学术论文,十余篇",
+    "index": 1,
+    "confirmed": "unsure",
+    "paper": "Non-Parametric Estimation of a Multivariate Probability Density\n作者：V. A. Epanechnikov\n单位：无\n\nTechnological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study\n作者：Frank W. Geels\n单位：University of Twente\n\nTransportation Costs and International Trade in the Second Era of Globalization\n作者：David Hummels\n单位：Purdue University West Lafayette",
+    "cite": "发表学术论文十余篇，多篇被SCI、EI引用，参编学术著作3部。",
+    "reason": "明确提到了该教授的论文发表数量和引用情况，属于与论文发表直接相关的信息",
+    "department_confirm": "yes",
+    "school_confirm": "yes",
+    "link": "https://m.kaoyan.com/yanzhao/just/daoshi/23/509644/"
+  },
+  {
+    "type": "关键词",
+    "value": "Journal of Ship Production and Design,Ocean Engineering,船舶工程,5篇",
+    "index": 2,
+    "confirmed": "no",
+    "paper": "",
+    "cite": "赵宏权同学博士期间在Journal of Ship Production and Design、Ocean Engineering、船舶工程等发表高水平学术论文5篇。",
+    "reason": "明确提到了具体期刊名称和论文发表数量，且与教授夏春智的署名信息相关（撰稿人）",
+    "department_confirm": "unknown",
+    "school_confirm": "yes",
+    "link": "https://cailiao.just.edu.cn/2021/0624/c4164a291207/page.htm"
+  }
+]
